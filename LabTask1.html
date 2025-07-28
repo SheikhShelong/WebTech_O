@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+
+<h2>1 Donation &nbsp;&gt;&nbsp; 2 Confirmation &nbsp;&gt;&nbsp; Thank You!</h2>
+
+<form>
+    <h3>Donor Information</h3>
+    <p>* Denotes Required Information</p>
+
+    First Name*: <input type="text" name="firstName"><br><br>
+    Last Name*: <input type="text" name="lastName"><br><br>
+    Company: <input type="text" name="company"><br><br>
+    Address 1*: <input type="text" name="address1"><br><br>
+    Address 2: <input type="text" name="address2"><br><br>
+    City*: <input type="text" name="city"><br><br>
+    State*: 
+    <select name="state">
+        <option>Select a State</option>
+    </select><br><br>
+    Zip Code*: <input type="text" name="zip"><br><br>
+    Country*: 
+    <select name="country">
+        <option>Select a Country</option>
+    </select><br><br>
+    Phone: <input type="text" name="phone"><br><br>
+    Fax: <input type="text" name="fax"><br><br>
+    Email*: <input type="email" name="email"><br><br>
+
+    <b>Donation Amount*</b><br>
+    <input type="radio" name="amount" value="none" checked> None
+    <input type="radio" name="amount" value="50"> $50
+    <input type="radio" name="amount" value="75"> $75
+    <input type="radio" name="amount" value="100"> $100
+    <input type="radio" name="amount" value="250"> $250
+    <input type="radio" name="amount" value="other"> Other<br>
+    Other Amount $<input type="text" name="otherAmount"><br><br>
+
+    <input type="checkbox" name="recurring"> I am interested in giving on a regular basis.<br>
+    Monthly Credit Card $<input type="text" name="monthlyAmount"> For <input type="text" name="months" size="3"> Months<br><br>
+
+    <h3>Honorarium and Memorial Donation Information</h3>
+    I would like to make this donation:<br>
+    <input type="radio" name="donationType"> To Honor<br>
+    <input type="radio" name="donationType"> In Memory of<br><br>
+
+    Name: <input type="text" name="honorName"><br><br>
+    Acknowledge Donation to: <input type="text" name="ackName"><br><br>
+    Address: <input type="text" name="ackAddress"><br><br>
+    City: <input type="text" name="ackCity"><br><br>
+    State: 
+    <select name="ackState">
+        <option>Select a State</option>
+    </select><br><br>
+    Zip: <input type="text" name="ackZip"><br><br>
+
+    <h3>Additional Information</h3>
+    Please enter your name, company or organization:<br>
+    Name: <input type="text" name="pubName"><br><br>
+
+    <input type="checkbox" name="anonymous"> I would like my gift to remain anonymous.<br>
+    <input type="checkbox" name="match"> My employer offers a matching gift program. I will mail the matching gift form.<br>
+    <input type="checkbox" name="noMail"> Please save the cost of acknowledging this gift by not mailing a thank you letter.<br><br>
+
+    Comments:<br>
+    <textarea name="comments" rows="4" cols="50"></textarea><br><br>
+
+    How may we contact you?<br>
+    <input type="checkbox" name="contactEmail"> E-mail<br>
+    <input type="checkbox" name="contactMail"> Postal Mail<br>
+    <input type="checkbox" name="contactPhone"> Telephone<br>
+    <input type="checkbox" name="contactFax"> Fax<br><br>
+
+    I would like to receive newsletters:<br>
+    <input type="checkbox" name="newsEmail"> E-mail<br>
+    <input type="checkbox" name="newsMail"> Postal Mail<br><br>
+
+    <input type="checkbox" name="volunteer"> I would like information about volunteering with the [Organization Name]<br><br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Continue"><br><br>
+
+    <small>Donate online with confidence. You are on a secure server.<br>
+    If you have any problems or questions, please contact support.</small>
+</form>
+
+</body>
+</html>
